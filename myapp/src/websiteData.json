@@ -1,0 +1,75 @@
+{
+    "name": "Jennifer Glueck",
+    "contactInfo": {
+        "phone": "(818) 987-2363",
+        "email": "jmglueck97@gmail.com",
+        "location": "Los Angeles, California"
+    },
+    "links" : {
+        "linkedIn": "https://www.linkedin.com/in/jennifer-glueck-895a15195/",
+        "gitHub": "https://github.com/jmglueck/"
+    },
+    "technicalSkills": {
+        "programmingLanguages": ["Python", "SQL (MySQL and PostGres)", "Java", "Javascript", "C/C++", "HTML", "CSS"],
+        "concepts": ["Databases (Relational and NoSQL)", "Network Protocols", "Web Scraping", "Security", "Full Stack", "Object-Oriented", "Front End", "Full Stack"],
+        "frameworks": ["Django", "Kivy", "React", "Angular"],
+        "platforms": ["Windows", "Linux", "Android"]
+    },
+    "education": {
+        "university": "University of California, Irvine",
+        "timeSpent": "June 2018 – June 2021",
+        "degree": "Bachelor of Science in Computer Science",
+        "gpa": 3.3
+    },
+    "experience": [
+        {
+            "title": "Programming Intern",
+            "timeSpent": "June 2020 – September 2020",
+            "company": "PYE Prep",
+            "description": [
+                "Contributed to an educational website vocabbrain.com meant to help students learn vocabulary while working with a team remotely",
+                "Utilized their SQL database, making queries to access information",
+                "Used HTML, CSS, Javascript, and Django (Python) to create vocabulary-based games such as Hangman"
+                ]
+        },
+        {
+            "title": "Learning Assistant (for ICS 6B: Boolean Algebra)",
+            "timeSpent": "September 2020 - December 2020",
+            "company": "University of California, Irvine",
+            "description": [
+                "Coordinated remotely with the professor, students, and other Learning Assistants (LA) to better the learning experience of the course",
+                "Helped students with material during class discussions and during my office hours",
+                "Organized scheduling for the other Learning Assistants (LA) for course coverage during the week",
+                "Proofread through quizzes to analyze whether the questions made sense and looked for typos"
+                ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Rexable",
+            "technologies": [
+                "Kivy", "Python", "MongoDB"
+            ],
+            "description": [
+                "Led a small team remotely to create a wellness app for Android and iOS",
+                "Used the Kivy framework to design and implement the application in Python",
+                "Utilized MongoDB databases to collect and store information about users",
+                "Created Login System for the application using JSON Store module in Kivy",
+                "Webscraped and displayed various recipes from different sites"
+
+            ]
+        },
+        {
+            "title": "Web Crawler",
+            "technologies": [
+                "Python", "SQLite"
+            ],
+            "description": [
+                "Participated in a team setting to create a web crawler",
+                "Web scraped information from the internet and compiled them into a database",
+                "Made database queries using SQLite"
+
+            ]
+        }
+    ]
+}
