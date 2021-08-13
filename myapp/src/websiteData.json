@@ -6,8 +6,8 @@
         "location": "Los Angeles, California"
     },
     "links" : {
-        "linkedIn": "https://www.linkedin.com/in/jennifer-glueck-895a15195/",
-        "gitHub": "https://github.com/jmglueck/"
+        "linkedIn" : ["LinkedIn", "https://www.linkedin.com/in/jennifer-glueck-895a15195/"],
+        "gitHub" : ["GitHub", "https://github.com/jmglueck/"]
     },
     "technicalSkills": {
         "programmingLanguages": ["Python", "SQL (MySQL and PostGres)", "Java", "Javascript", "C/C++", "HTML", "CSS"],
