@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 import Links from './components/Links.js';
+import TechnicalSkillsSection from './components/TechnicalSkillsSection.js';
 import * as websiteData from './websiteData.json';
 
 /*function App() {
@@ -43,6 +44,8 @@ export default class App extends React.Component{
           {websiteData.name}
           <Links />
         </header>
+
+        <TechnicalSkillsSection />
       
       </div>
     );

@@ -10,7 +10,7 @@
         "gitHub" : ["GitHub", "https://github.com/jmglueck/"]
     },
     "technicalSkills": {
-        "programmingLanguages": ["Python", "SQL (MySQL and PostGres)", "Java", "Javascript", "C/C++", "HTML", "CSS"],
+        "programming languages": ["Python", "SQL (MySQL and PostGres)", "Java", "Javascript", "C/C++", "HTML", "CSS"],
         "concepts": ["Databases (Relational and NoSQL)", "Network Protocols", "Web Scraping", "Security", "Full Stack", "Object-Oriented", "Front End", "Full Stack"],
         "frameworks": ["Django", "Kivy", "React", "Angular"],
         "platforms": ["Windows", "Linux", "Android"]
