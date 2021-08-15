@@ -46,6 +46,17 @@
     ],
     "projects": [
         {
+            "title": "Personal Resume",
+            "technologies": [
+                "React", "Javascript", "CSS", "JSON"
+            ],
+            "description": [
+                "Created the front-end for a static personal resume website",
+                "Used React, Javascript, and CSS to design the visuals",
+                "Stored information for the website in JSON files"
+            ]
+        },
+        {
             "title": "Rexable",
             "technologies": [
                 "Kivy", "Python", "MongoDB"

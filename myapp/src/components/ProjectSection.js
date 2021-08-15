@@ -2,28 +2,33 @@ import React from "react";
 import * as websiteData from '../websiteData.json';
 
 
-const ExperienceSection = () => {
+const ProjectSection = () => {
     return (
         <div className="section-holder">
             <h1>
-                experience
+                projects
             </h1>
             {
-                (websiteData.experience).map((exp) => {
+                (websiteData.projects).map((proj) => {
                     return (
                     <div>
                         <p style={
                             {fontWeight: 'bold'}}>
-                            {exp.title}
+                            {proj.title}
                         </p>
                         <p>
-                            {exp.company}
-                        </p>
-                        <p>
-                            {exp.timeSpent}
+                            {
+                                (proj.technologies).map((tech, i) => {
+                                    return (
+                                        <span>
+                                        {tech}{i < ((proj.technologies).length - 1) ? ", " : ""} 
+                                        </span>
+                                
+                                )})
+                            }
                         </p>
                         <ul>
-                            {(exp.description).map((descriptLine) => {
+                            {(proj.description).map((descriptLine) => {
                                 return (
                                 <li>
                                     {descriptLine}
@@ -39,4 +44,4 @@ const ExperienceSection = () => {
 
 }
 
-export default ExperienceSection;
+export default ProjectSection;
