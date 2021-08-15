@@ -4,6 +4,7 @@ import './App.css';
 import Links from './components/Links.js';
 import TechnicalSkillsSection from './components/TechnicalSkillsSection.js';
 import EducationSection from './components/EducationSection.js';
+import ExperienceSection from './components/ExperienceSection.js';
 import * as websiteData from './websiteData.json';
 
 /*function App() {
@@ -48,6 +49,7 @@ export default class App extends React.Component{
 
         <TechnicalSkillsSection />
         <EducationSection />
+        <ExperienceSection />
       
       </div>
     );
