@@ -14,7 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /*background-color: #282c34;*/
+  /*where parallax effect content begins*/
+  background-image: url('backgroundimage.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*where parallax effect content ends*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +32,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #d88492;
   padding: 8px;
 }
 
@@ -46,5 +53,5 @@
 ul {
   display: inline-block;
   text-align: left;
-  width: 400px;
+  width: 450px;
 }
